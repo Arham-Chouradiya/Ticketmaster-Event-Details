@@ -5,13 +5,13 @@ const axios = require('axios');
 const path = require('path');
 const spotifyWebApi = require('spotify-web-api-node');
 const spotifyAPI = new spotifyWebApi({
-    clientId: "08c0956377e24669991df441c90d1fce",
-    clientSecret: "2815e53aa7de4f5f812a2222c24f1b83",
+    clientId: "",
+    clientSecret: "",
     redirectUri: "https://csci-571-hw8-backend-382602.wl.r.appspot.com"
 });
 
-const PRIVATE_API_KEY = "S02CZYJ9wVYN-BgNrWdZa199BpG-YPrVsVT5RbTMe27zj0-fY6rx4OkW6SkE-jo10g2lnzciTZyMlkvHvX-Ardu1PLIedbv1gNp5ZpQp5-TUvY7HlxmJwBTvRl3pRuG49iKbVL"
-const TICKETMASTER_API_KEY = "NmAmzzULd27THrpNvoNsYanQuaA6wpE4"
+const PRIVATE_API_KEY = ""
+const TICKETMASTER_API_KEY = ""
 const headers = {'Authorization': 'bearer %s' % PRIVATE_API_KEY}
 
 
