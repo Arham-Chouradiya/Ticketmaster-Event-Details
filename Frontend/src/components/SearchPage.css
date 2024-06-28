@@ -1,0 +1,138 @@
+.event_search_box   {
+    background-color: rgba(153, 153, 147, 0.3); 
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    backdrop-filter: blur(20px);
+}
+
+.event-search {
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+hr  {
+    color: white;   
+}
+
+label   {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #9cfbe7;
+}
+
+.suggestion {
+    color: white;
+}
+
+.event_details_box  {
+    background-color: rgba(153, 153, 147, 0.3); 
+    width:900px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    backdrop-filter: blur(20px);
+}
+
+.arrow-left {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.back-arrow {
+    color: white;
+    float: left;
+    font-size: 20px;
+}
+
+.back-arrow:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.event-name-box {
+    color: white;
+}
+
+.date-data, .artist-data, .venue-data, .genre-data-2, .price-data, .ticket-data, .venue-name-data, .venue-address-data, .phone-data, .opening-hours-data, .general-rule-data, .child-rule-data   {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #9cfbe7;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.date-value, .artist-value, .venue-value, .genre-value, .price-value, .ticket-value   {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+}
+
+.venue-name-value, .venue-address-value, .phone-value, .opening-hours-value, .general-rule-value, .child-rule-value, .share-value, .followers-data   {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+}
+
+.ticketstatus-button    {
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 10px;
+}
+
+.arrow-down {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.arrow-up {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.artist-name-value, .popularity-value, .followers-value, .spotify-link-value, .artist-albm-values  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #9cfbe7;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.date-column, .icon-column, .genre-column    {
+    width: 120px;
+}
+
+.display-table {
+    display: table;
+    width: 1000px;
+}
